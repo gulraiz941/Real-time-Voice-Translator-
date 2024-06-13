@@ -1,0 +1,142 @@
+/* mainpage.css */
+
+body {
+    margin: 0;
+    overflow: hidden; /* Hide the default browser scrollbars */
+}
+
+#backgroundVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Place the video behind other elements */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.class {
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px; /* Adjust the right distance as needed */
+    display: flex;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+
+form {
+    /* Add this block to style the form */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+    color: black; /* Set the input text color to black */
+}
+
+/* Add this block to style the submit button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* mainpage.css */
+
+body {
+    margin: 0;
+    overflow: hidden; /* Hide the default browser scrollbars */
+}
+
+#backgroundVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Place the video behind other elements */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    color: white;
+    transform: translate(-25%, -25%);
+     
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+form {
+    /* Add this block to style the form */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+    color: black; /* Set the input text color to black */
+}
+
+/* Add this block to style the submit button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+h1 {
+    text-align: center;
+    color: white; /* This sets the text color to white */
+}
+h2 {
+    text-align: center;
+    color: white; 
+}
